@@ -21,8 +21,6 @@ export { validateConfiguration } from './config/validateConfiguration';
 export { default as TreeMenu } from './components/TreeMenu';
 export { locationReplace } from './components/locationReplace';
 export { getBrandImage } from './components/branding/BrandImage'
-
-// TODO: Review componentLoader if it is needed after containerisation to microfrontends
 export { componentLoader } from './components/componentLoader';
 
 import "./styles/index.scss";
