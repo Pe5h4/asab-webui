@@ -11,7 +11,7 @@ module.exports = {
 	webpack: {
 		resolve: {
 			alias: {
-				"asab-webui": path.resolve('asab-webui', 'src')
+				"asab-webui": path.resolve('src')
 			}
 		}
 	},
